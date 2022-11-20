@@ -1,0 +1,77 @@
+body{
+    background-image: url("../img/fundo-azul.png");
+}
+
+.trevorosa{
+    max-width: 130px;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+main {
+    max-width: 250px;
+    max-height: 500px;
+    margin:225px auto 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(45, 66, 130);
+    color: rgb(243, 243, 243);
+    max-width: 250px;
+    width: 250px;
+    padding: 18px;
+    border:3px solid #ffa16a;
+    border-radius: 40px;
+    font-size: 25px;
+    position: relative;
+    font-weight: bold;
+    margin: 20px 0;
+    transition: all,0.1s;
+    text-transform: uppercase;
+}
+
+
+button:hover{
+    background-color: #ffa16a;
+    border-color: rgb(255, 255, 255);
+    color: rgb(45, 66, 130);
+    transform:scale(1.2);
+}
+
+button:active{
+    background-color: #ffa16a;
+    border-color: rgb(255, 255, 255);
+    color: rgb(45, 66, 130);
+    transform:scale(1.2);
+}
+
+.logo{
+    max-width: 100px;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    bottom: 50%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+footer{
+    text-align: center;
+	background-image: url("../img/trevos-azul-rodape.png");
+    background-repeat: repeat;
+	padding: 7em 0;
+    margin:5px 0;
+}
+
+@media screen and (max-width:480px) {
+    footer{
+        padding: 100px 0 30px;
+    }
+}

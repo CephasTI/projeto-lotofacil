@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/grafico.css">
+    <link rel="icon" type="image/png" href="img/trevo-azul.png">
+    <title>Gráfico | 2A Lotofácil</title>
+</head>
+
+<body>
+    
+    <header>
+        <a href="home.html">
+            <button class="volta"></button>
+        </a>
+
+        <div class="titulo">
+            <h1>Gráfico de números ímpares e pares</h1>
+        </div>
+    </header>
+
+   
+
+    <main class="fundoGrafico">
+        <div class="grafico">
+            <canvas id="myChart"></canvas>
+        </div>
+    </main>
+
+    <section>
+        <div class="model-page1">
+            
+            <table>
+                <tr>
+                    <th colspan="2">Números <br>Ímpares</th>
+                </tr>
+                
+                <tr class="listra">
+                    <td>
+                        <span id="conc10"></span>
+                    </td>
+
+                    <td>
+                        <span id="im10"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span id="conc9"></span>
+                    </td>
+                    
+                    <td>
+                        <span id="im9"></span>
+                    </td>
+                </tr>
+
+                <tr class="listra">
+                    <td>
+                        <span id="conc8"></span>
+                    </td>
+                    
+                    <td>
+                        <span id="im8"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span id="conc7"></span>
+                    </td>
+                    
+                    <td>
+                        <span id="im7"></span>
+                    </td>
+                </tr>
+
+                <tr class="listra">
+                    <td>
+                        <span id="conc6"></span>
+                    </td>
+                    
+                    <td>
+                        <span id="im6"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span id="conc5"></span>
+                    </td>
+                    
+                    <td>
+                        <span id="im5"></span>
+                    </td>
+                </tr>
+
+                <tr class="listra">
+                    <td>
+                        <span id="conc4"></span>
+                    </td>
+                    
+                    <td>
+                        <span id="im4"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span id="conc3"></span>
+                    </td>
+                    
+                    <td>
+                        <span id="im3"></span>
+                    </td>
+                </tr>
+
+                <tr class="listra">
+                    <td>
+                        <span id="conc2"></span>
+                    </td>
+                    
+                    <td>
+                        <span id="im2"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span id="conc1"></span>
+                    </td>
+                    
+                    <td>
+                        <span id="im1"></span>
+                    </td>
+                </tr>
+                
+                
+            </table>
+
+        </div>
+        
+        <div class="model-page2">
+            <table>
+                <tr>
+                    <th colspan="2">Números <br>Pares</th>
+                </tr>
+                
+                <tr class="listra">
+                    <td>
+                        <span id="conc10pa"></span>
+                    </td>
+
+                    <td>
+                        <span id="pa10"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span id="conc9pa"></span>
+                    </td>
+                    
+                    <td>
+                        <span id="pa9"></span>
+                    </td>
+                </tr>
+
+                <tr class="listra">
+                    <td>
+                        <span id="conc8pa"></span>
+                    </td>
+                    
+                    <td>
+                        <span id="pa8"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span id="conc7pa"></span>
+                    </td>
+                    
+                    <td>
+                        <span id="pa7"></span>
+                    </td>
+                </tr>
+
+                <tr class="listra">
+                    <td>
+                        <span id="conc6pa"></span>
+                    </td>
+                    
+                    <td>
+                        <span id="pa6"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span id="conc5pa"></span>
+                    </td>
+                    
+                    <td>
+                        <span id="pa5"></span>
+                    </td>
+                </tr>
+
+                <tr class="listra">
+                    <td>
+                        <span id="conc4pa"></span>
+                    </td>
+                    
+                    <td>
+                        <span id="pa4"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span id="conc3pa"></span>
+                    </td>
+                    
+                    <td>
+                        <span id="pa3"></span>
+                    </td>
+                </tr>
+
+                <tr class="listra">
+                    <td>
+                        <span id="conc2pa"></span>
+                    </td>
+                    
+                    <td>
+                        <span id="pa2"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span id="conc1pa"></span>
+                    </td>
+                    
+                    <td>
+                        <span id="pa1"></span>
+                    </td>
+                </tr>
+                
+                
+            </table>
+        </div>
+    </section>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="js/grafico.js"></script>
+
+</body>
+</html>

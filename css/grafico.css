@@ -1,0 +1,160 @@
+body{
+    background: url("../img/fundo-azul.png");
+}
+
+header{
+    max-width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 25px 0 20px;
+}
+
+.volta{
+    position: absolute;
+    background: url("../img/botao-volta.png");
+    padding: 30px;
+    left: 10px;
+    border:4px solid;
+    border-color: white;
+    border-radius: 35px;
+    transition: all 0.3s;
+}
+
+.volta:hover,
+.volta:active{
+    box-shadow:0px 0px 20px 1px black
+}
+
+.titulo{
+    max-width: 390px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.fundoGrafico{
+    max-width: 940px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 13px;
+    padding-bottom: 3px;
+}
+
+
+.grafico{
+    position: relative;
+    width: 97%;
+    left: 50%;
+    transform: translate(-50%);
+    color: rgb(15, 78, 129);
+}
+
+
+section {
+    max-width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+section div{
+    position: absolute;
+    text-align: center;
+    height: 296px;
+    display: inline-block;
+    border-radius: 13px 13px 0 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.model-page1{
+    background-color: rgb(142, 178, 207);
+    width: 45%;
+    left: 45%;
+    transform: translate(-92.5%);
+    border: 2px solid black;
+}
+
+.model-page2{
+    background-color: rgb(223, 196, 171);
+    width: 45%;
+    right: 45%;
+    transform: translate(92.5%);
+    border: 2px solid black;
+}
+
+section div:hover{
+    height: 300px;
+}
+
+table{
+    margin: 0 auto;
+    width: 100%;
+}
+
+th{
+    font-size: 25px;
+    padding: 1px 0;
+}
+
+td{
+    max-width: 5px;
+    font-size: 20px;
+    padding: 1.5px 0;
+    border: 1px solid black;
+}
+
+th:hover{
+    padding: 3px 0;
+}
+
+td:hover{
+    font-size: 25px;
+    background: cyan;
+}
+
+td:active{
+    font-size: 25px;
+    background: cyan;
+}
+
+.listra{
+    background: white;
+}
+
+@media screen and (max-width: 940px){
+    header{
+        padding: 15px 0;
+    }
+
+    .titulo{
+        max-width: 300px;
+        margin: 30px auto 0;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+    
+    .fundoGrafico{
+        margin: 20px 5px;
+    }
+
+    th{
+        font-size: 23px;
+        padding-bottom: 4px;
+    }
+
+    th:hover{
+        padding: 5px;
+    }
+
+    section div:active{
+        height: 300px;
+    }
+}
