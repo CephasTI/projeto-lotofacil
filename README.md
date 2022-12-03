@@ -30,3 +30,4 @@ em estudos de probabilidade e estatística.
 
 # Autor
 Pedro Rodrigues de Oliveira
+https://www.linkedin.com/in/pedro-rodrigues-de-oliveira-819088231/
