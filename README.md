@@ -27,3 +27,6 @@ em estudos de probabilidade e estatística.
 ## Front end
 - HTML / CSS / JS
 - Apex Charts
+
+# Autor
+Pedro Rodrigues de Oliveira
