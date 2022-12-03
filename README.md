@@ -2,11 +2,13 @@
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/CephasTI/projeto-lotofacil/blob/master/LICENCE)
 
+>>Status do projeto: Em construção
+
 # Sobre o projeto
 
 https://2a.netlify.app
 
-2A Lotofácil é uma aplicação full stack web e mobile construida como um projeto pessoal para exercer dicas e mostrar possibilidades de futuros jogos. 
+2A Lotofácil é uma aplicação full stack web e mobile construída como um projeto pessoal para exercer dicas e mostrar possibilidades de futuros jogos. 
 
 A aplicação é baseada em possibilidades com maior taxa de acertos, no intuito de facilitar com que sejam criados jogos bem elaborados e com base 
 em estudos de probabilidade e estatística.
@@ -21,7 +23,7 @@ em estudos de probabilidade e estatística.
 ![Web 1](https://github.com/CephasTI/projeto-lotofacil/blob/master/assets/web1.PNG)
 ![Web 2](https://github.com/CephasTI/projeto-lotofacil/blob/master/assets/web2.PNG)
 
-# Tecnologias ultilizadas
+# Tecnologias utilizadas
 ## Back end
 - Java Script
 ## Front end
